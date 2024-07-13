@@ -1,0 +1,60 @@
+{
+	"name": "hbs-snippets",
+	"displayName": "hbs snippets",
+	"description": "Snippets for hbs code",
+	"publisher": "RuhanRK",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ruhankhandakar/hbs-extension"
+	},
+	"keywords": [
+		"snippets",
+		"handlebars",
+		"hbs"
+	],
+	"icon": "icon.png",
+	"version": "2.2.0",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "js",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "handlebars",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "hbs",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6129f577-4a6c-4eb2-8a22-32bca62f0801",
+		"publisherId": "7652ac2c-743c-40ab-9a91-847efdef0c77",
+		"publisherDisplayName": "Ruhan Khandakar",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1719151653683,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"name": "hbs-template",
+	"displayName": "hbs Template",
+	"description": "",
+	"version": "0.0.8",
+	"publisher": "alias",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://aliasyou.visualstudio.com/_git/MyFirstProject"
+	},
+	"author": "alias.you",
+	"license": "ISC",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "handlebars",
+				"path": "./snippets/handlebars.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/index-js.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f5d6a786-d7f6-440b-b0e3-67ac5b23c15a",
+		"publisherId": "c4263ead-387e-4ff0-becf-7384c537d3fa",
+		"publisherDisplayName": "alias",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1719151758854,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

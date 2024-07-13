@@ -1,0 +1,52 @@
+{
+  "HBS": {
+    "prefix": "hbs",
+    "body": "{{ ${0} }}",
+    "description": "HBS"
+  },
+  "if block": {
+    "prefix": "hif",
+    "body": "{{#if ${1:condition}}}\n\t${0}\n{{/if}}",
+    "description": "IF"
+  },
+  "else if block": {
+    "prefix": "helif",
+    "body": "{{#if ${2:condition}}}\n\t${1}\n{{else}}\n\t${0}\n{{/if}}",
+    "description": "IF ELSE"
+  },
+  "each block": {
+    "prefix": "heach",
+    "body": "{{#each ${1:list} }}\n\t${0}\n{{/each}}",
+    "description": "EACH"
+  },
+  "partial": {
+    "prefix": "hpar",
+    "body": "{{> ${0}}}",
+    "description": "PARTIAL"
+  },
+  "unless block": {
+    "prefix": "hun",
+    "body": "{{#unless ${1}}}\n\t${0}\n{{/unless}}",
+    "description": "UNLESS"
+  },
+  "with block": {
+    "prefix": "hwi",
+    "body": "{{#with ${1}}}\n\t${0}\n{{/with}}",
+    "description": "WITH"
+  },
+  "hbs custom function": {
+    "prefix": "hcusfunc",
+    "body": "hbs.registerHelper('${is}', function(${parameter}, ${string}, ${options}) {\n if (parameter == string)\t{\n  return ${options}.fn(this)\n } else {\n  return ${options}.inverse(this)\n }\n})",
+    "description": "HELPER FUNCTION"
+  },
+  "lookup": {
+    "prefix": "hlookup",
+    "body": "{{lookup ${0} @{${1:index}} }}",
+    "description": "lookup helpers"
+  },
+  "log": {
+    "prefix": "hlog",
+    "body": "{{log '${0}' }}",
+    "description": "log helpers"
+  }
+}

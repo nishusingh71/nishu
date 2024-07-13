@@ -1,0 +1,19 @@
+{
+	"hbs template": {
+			"prefix": "hbs template", 
+			"body": [
+					"---", 
+					"layout: page/base.hbs", 
+					"title: hbs - template", 
+					"---", 
+					"<main class=\"main-section\" role=\"main\" id=\"main-section\">", 
+					"</main>", 
+					"<script type=\"application/json\" id=\"data-translation\">", 
+					"{", 
+					"\t\"t9n\":\"t9n\"",
+					"}", 
+					"</script>"
+			], 
+			"description": "hbs 模板文件"
+	}
+}

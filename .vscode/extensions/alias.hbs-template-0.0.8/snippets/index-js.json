@@ -1,0 +1,15 @@
+{
+	"js index.js template": {
+		"prefix": "js index template", 
+		"body": [
+			"'use strict';",
+			"require('./index.scss');",
+			"var layout = require('layouts/page/base.js');",
+			"var Vue = require('vue');\t\n",
+			"new Vue({",
+				"\tmixins: [layout.mixin]",
+			"}).\\$mount('#main-section');"
+		], 
+		"description": "index.js template"
+	}
+}

@@ -1,0 +1,24 @@
+I0126 20:26:26.707853    6756 ssh_proxy_server.go:53] "logged in" username="nishusingh71"
+I0126 20:26:26.724211    6756 ssh_proxy_server.go:65] "server started" ipcName="csb-cli-production" status="Listening"
+I0126 20:26:26.874585    6756 ssh_proxy_server.go:73] "received message" type=-1 data="" status="Connected"
+I0126 20:26:26.875139    6756 ssh_proxy_server.go:75] "received message" type=1 data="7kjkx7"
+I0126 20:26:26.875139    6756 proxyng.go:129] "proxy started" port=60527
+I0126 20:26:26.875139    6756 ssh_proxy_server.go:133] "proxy started" vmId="7kjkx7" port=60527
+I0126 20:26:26.875695    6756 ssh_proxy_server.go:73] "received message" type=-1 data="" status="Disconnected"
+I0126 20:26:37.209984    6756 api.go:140] "starting VM" id="7kjkx7"
+I0126 20:26:38.202489    6756 proxyng.go:225] "proxying" proxy="ssh" count=1 src="127.0.0.1" dst="167.235.8.246:65196"
+I0126 20:27:38.205414    6756 proxyng.go:278] "after ReadFrom" n=1409772 dir="remote -> local" err="readfrom tcp 127.0.0.1:60527->127.0.0.1:60546: read tcp 192.168.1.14:60547->167.235.8.246:65196: i/o timeout"
+I0126 20:27:38.205414    6756 proxyng.go:296] "timeout" n=1409772 dir="remote -> local"
+I0126 20:27:51.132423    6756 proxyng.go:278] "after ReadFrom" n=297221 dir="local -> remote" err="readfrom tcp 192.168.1.14:60547->167.235.8.246:65196: read tcp 127.0.0.1:60527->127.0.0.1:60546: wsarecv: An existing connection was forcibly closed by the remote host."
+I0126 20:27:51.132423    6756 proxyng.go:306] "read" n=297221 dir="local -> remote"
+E0126 20:27:51.132423    6756 proxyng.go:243] "input error" err="readfrom tcp 192.168.1.14:60547->167.235.8.246:65196: read tcp 127.0.0.1:60527->127.0.0.1:60546: wsarecv: An existing connection was forcibly closed by the remote host." proxy="ssh"
+I0126 20:27:51.132423    6756 proxyng.go:200] "proxying done" proxy="ssh" count=0 src="127.0.0.1" dst="167.235.8.246:65196"
+I0126 20:27:51.132423    6756 proxyng.go:278] "after ReadFrom" n=1612 dir="remote -> local" err="readfrom tcp 127.0.0.1:60527->127.0.0.1:60546: read tcp 192.168.1.14:60547->167.235.8.246:65196: use of closed network connection"
+I0126 20:27:51.132932    6756 proxyng.go:306] "read" n=1612 dir="remote -> local"
+I0127 15:34:24.365443   18312 ssh_proxy_server.go:53] "logged in" username="nishusingh71"
+I0127 15:34:24.383377   18312 ssh_proxy_server.go:65] "server started" ipcName="csb-cli-production" status="Listening"
+I0127 15:34:24.710404   18312 ssh_proxy_server.go:73] "received message" type=-1 data="" status="Connected"
+I0127 15:34:24.710461   18312 ssh_proxy_server.go:75] "received message" type=1 data="yzxy2f"
+I0127 15:34:24.710461   18312 proxyng.go:129] "proxy started" port=51748
+I0127 15:34:24.710461   18312 ssh_proxy_server.go:133] "proxy started" vmId="yzxy2f" port=51748
+I0127 15:34:24.710971   18312 ssh_proxy_server.go:73] "received message" type=-1 data="" status="Disconnected"
