@@ -1,5 +1,12 @@
 [user]
 	name = Nishu Singh
-	email = nishus877@gmail.com
+	email = 53341807+nishusingh71@users.noreply.github.com
 [color]
 	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = \"C:\\Users\\nishu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
